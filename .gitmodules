@@ -1,3 +1,6 @@
 [submodule "pytorch-grad-cam"]
 	path = pytorch-grad-cam
 	url = https://github.com/jacobgil/pytorch-grad-cam.git
+[submodule "external/GradCAM"]
+	path = external/GradCAM
+	url = https://github.com/jacobgil/pytorch-grad-cam.git
