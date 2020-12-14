@@ -3,5 +3,6 @@
 	"build": "run.py",
 	"library": "src",  
 	"notebook": "notebooks/report.ipynb",
-	"targets": ["/GradCAM/gradcam.py]
+	"targets": ["GradCAM/gradcam.py"],
+    "dockerhub-id": "ekang/final_report_replication"
 }
