@@ -22,7 +22,6 @@ RUN	apt-get install -y traceroute
 
 # 3) install packages
 RUN pip install --no-cache-dir babypandas geopandas
-RUN git clone https://github.com/eric-h-kang/Final_report_replication.git
 
 # 4) change back to notebook user
 COPY /run_jupyter.sh /
